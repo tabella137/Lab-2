@@ -1,0 +1,9 @@
+import sys
+
+def commandargs():
+  print("Variable 1 is: ", sys.argv[1])
+  print("Variable 2 is: ", sys.argv[2])
+  print("Print script and variables: ", sys.argv[0], sys.argv[1], sys.argv[2])
+  
+ if __name__ == "__main__":
+  commandargs():
