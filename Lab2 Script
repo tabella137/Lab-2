@@ -7,3 +7,8 @@ def commandargs():
   
  if __name__ == "__main__":
   commandargs():
+
+def helloWorld():
+	print('Hello World')
+
+helloWorld()
